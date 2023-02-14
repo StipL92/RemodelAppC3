@@ -1,0 +1,188 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.divisor {
+    border-bottom: 0.5px solid #2D2B29;
+}
+
+.ancho {
+    width: 90%;
+}
+
+.nav img {
+    max-height: 130px;
+}
+
+.nav a {
+    font-weight: 500;
+    color: #2D2B29;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav li {
+    border-top: 2px solid white;
+}
+
+.nav li:hover {
+    border-top: 2px solid #C7A987;
+}
+
+.bajar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-control-feedback {
+    position: absolute;
+    padding: 10px;
+    pointer-events: none;
+}
+
+.form-control {
+    padding-left: 30px!important;
+}
+
+.loginav {
+    display: flex;
+    align-items: center;
+}
+
+.loginav a{
+    font-weight: 400;
+}
+
+.carrusel img {
+    max-height: 500px;
+}
+
+.categoriasinicio h1 {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.tarjetasproductos {
+    max-width: 450px;
+    border: 1px solid #2D2B29;
+}
+
+.tarjetasproductos h3 {
+    font-weight: 500;
+    text-align: center;
+    color: #2D2B29;
+    font-size: 24px;
+}
+
+.tarjetasproductos img {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.tarjetasproductos a {
+    text-align: center;
+}
+
+.tarjetasproductos button {
+    margin: 0 auto;
+    width: 75%;
+    border: 1px solid #2D2B29;
+    background-color: white;
+    color: #2D2B29;
+    font-weight: 400;
+    font-size: 24px;
+    height: 50px;
+}
+
+.tarjetasproductos button:hover {
+    background-color: #C7A987;
+    color: white;
+}
+
+.footer {
+    background-color: #2D2B29;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.containercategorias {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containerproductos {
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.productos {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productos img {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #2D2B29;
+}
+
+.proveedor {
+    font-weight: 500;
+    font-size: 18px;
+    color: #2D2B29;
+}
+
+.tituloproducto {
+    font-weight: 500;
+    font-size: 21px;
+    color: #2D2B29;
+    line-height: 22px;
+}
+
+.descripcionproducto {
+    font-weight: 500;
+    font-size: 21px;
+    color: #2D2B29;
+    text-align: right;
+}
+
+.contactoproveedor {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: #32BA7C;
+    align-items: center;
+    border: none;
+}
+
+.contactoproveedor:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #1F8A59;
+}
+
+.carousel-caption button {
+    border: 1px solid #2D2B29;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-family: 'Antonio', sans-serif;
+    font-size: 1.2rem;
+}
+
+.carousel-caption button:hover {
+    background-color: white;
+}

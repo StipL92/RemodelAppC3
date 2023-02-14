@@ -1,0 +1,139 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pantalla {
+    min-height: 100vh;
+}
+
+.izq {
+    background-color: #C7A987;
+}
+
+.izq img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.menulista {
+    list-style: none;
+    padding: 0px;
+}
+
+.menulista li {
+    width: 96%;
+    border-bottom: 1px solid #707070;
+    text-align: center;
+    padding-bottom: 6px;
+    padding-top: 15px;
+}
+
+.menulista li:hover {
+    border-bottom: 1px solid #F5EBE0;
+}
+
+.menulista a {
+    font-weight: 700;
+    font-size: 21px;
+    color: #2D2B29;
+}
+
+.menulista a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #2D2B29;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.ancho {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.divisor {
+    border-bottom: 1px solid #2D2B29;
+}
+
+.der h1 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #2D2B29;
+}
+
+.der h2 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2D2B29;
+}
+
+.der td {
+    font-weight: 700;
+    font-size: 21px;
+    color: #2D2B29;
+    border-bottom: 1px solid #2D2B29;
+    padding-top: 12px;
+}
+
+.der td a{
+    color: #C7A987;
+}
+
+.tableProductos thead {
+    border-bottom: 1px solid #2D2B29;
+}
+
+.tableProductos td {
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.tableProductos a {
+    font-size: 21px;
+}
+
+.der button {
+    height: 60px;
+    border: none;
+    background-color: #32BA7C;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.der button:hover {
+    background-color: #1F8A59;
+}
+
+.form-group label {
+    font-family: 700;
+}
+
+.alerta {
+    position: absolute;
+    top: 92px;
+    right: 20px;
+}
+
+.btnVolver a {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    border: none;
+    background-color: #eb4034;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.btnVolver a:hover {
+    text-decoration: none;
+    background-color: #c72a1f;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- cdn de bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- cdn de las fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <title>Remodelapp</title>
+    <!-- estilos propios -->
+    <link rel="stylesheet" href="estilosdashboard.css">
+</head>
+<body>
+    <div class="container-fluid ">
+        <div class="row pantalla">
+            <!-- columna izquierda -->
+            <div class="col-lg-3 col-md-4 izq">
+                <img src="img/Logo.png" alt="">
+                <ul class="menulista mt-4">
+                    <li><a href="dashboard.html">GESTIÓN PRODUCTOS</a></li>
+                    <li><a href="dashboardproveedores.html">GESTIÓN PROVEEDORES</a></li>
+                </ul>
+            </div>
+            <!-- columna derecha -->
+            <div class="col-lg-9 col-md-8 der">
+                <div class="container-fluid">
+                    <div class="ancho">
+                        <h1 class="mt-3 mb-3">DASHBOARD REMODELAPP</h1>
+                    </div>
+                </div>
+                <div class="divisor"></div>
+                <div class="container-fluid">
+                    <div class="ancho">
+                        <h2 id="tituloCategoria" class="mt-4 mb-4">LISTAR PRODUCTOS POR CATEGORÍA</h2>
+                        <table class="tableProductos mb-4">
+                            <thead>
+                                <tr>
+                                    <th>NOMBRE</th>
+                                    <th>PROVEEDOR</th>
+                                    <th>PRECIO</th>
+                                    <th>COLOR</th>
+                                    <th>MATERIAL</th>
+                                    <th>EDITAR</th>
+                                    <th>ELIMINAR</th>
+                                </tr>
+                            </thead>
+                            <tbody id="productos">
+                            
+                            </tbody>
+                        </table>
+                        <div>
+                            <a href="dashboardcrear.html"><button class="pr-4 pl-4" type="submit" id="enviar">CREAR PRODUCTO</button></a>
+                            <a href="dashboard.html"><button class="pr-4 pl-4" style="background-color: #eb4034;">VOLVER</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer -->
+            <p class="footer text-white text-center p-2 m-0 fixed-bottom">2022 - REMODELAPP - TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
+    </div>
+    <script src="js/getdashboard.js"></script>
+</body>
+</html>

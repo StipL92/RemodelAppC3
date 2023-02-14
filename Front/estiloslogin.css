@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #C7A987;
+}
+
+.contenedor-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.centrar {
+    margin: 0 auto;
+}
+
+img {
+    max-width: 150px;
+}
+
+.container-login {
+    max-width: 800px;
+    width: 70%;
+    border: 1px solid #2D2B29;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 16%);
+    padding: 50px 0;
+}
+
+.container-login h1 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #2D2B29;
+}
+
+.formgrupo {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 50%;
+}
+
+.formgrupo label {
+    font-weight: 700;
+    text-align: left;
+    font-size: 24px;
+}
+
+.formgrupo input {
+    background-color: #D3C2B2;
+    border: none;
+    height: 60px;
+    outline: none;
+    color: #2D2B29;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.boton {
+    max-width: 350px;
+    width: 50%;
+}
+
+.container-login button {
+    width: 100%;
+    border: none;
+    height: 60px;
+    background-color: #2D2B29;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.container-login button:hover {
+    background-color: #D3C2B2;
+    color: #2D2B29;
+}
+
+.footer {
+    background-color: #2D2B29;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+h2 {
+    font-family: 'Antonio', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: center;
+    color: #2D2B29;
+    letter-spacing: 2px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.alerta {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}

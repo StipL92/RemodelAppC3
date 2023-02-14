@@ -1,0 +1,48 @@
+________________________PETICIONES______________
+
+		--- GET - ALL
+
+Endpoint = http://127.0.0.1:8000/products/
+
+		--- GET - ONE ELEMENT
+
+Endpoint = http://127.0.0.1:8000/products/{id}
+
+		--- DELETE - ONE ELEMENT
+
+Endpoint = http://127.0.0.1:8000/products/{id}
+
+		--- PUT 
+
+Endpoint = http://127.0.0.1:8000/products/{id}
+
+DATA=
+[
+  {
+      "Producto": "Pintura Negra 1",
+      "Id_Categoria_id": 4,
+      "Id_Proveedor_id": 1,
+      "Valor": "333000",
+      "Color": "Negro",
+      "Tipo_Material": "Agua"
+    }
+    
+]
+
+		--- POST
+
+Endpoint = http://127.0.0.1:8000/products/
+
+DATA=
+[
+  {
+      "Producto": "Pintura Café 2",
+      "Id_Categoria_id": 4,
+      "Id_Proveedor_id": 1,
+      "Valor": "410000",
+      "Color": "Café",
+      "Tipo_Material": "Agua"
+    }
+    
+]
+
